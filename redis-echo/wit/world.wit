@@ -1,0 +1,7 @@
+package jamesstocktonj:wash-componentize-redis-echo;
+
+world redis-echo {
+  import wasi:keyvalue/store@0.2.0-draft;
+
+  export wasi:http/incoming-handler@0.2.0;
+}

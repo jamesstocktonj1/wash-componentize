@@ -36,3 +36,4 @@ go.work.sum
 **/gen/wasi*
 **/gen/wit*
 **/wit/deps
+**/data
