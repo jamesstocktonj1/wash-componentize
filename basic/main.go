@@ -13,7 +13,7 @@ func init() {
 }
 
 func greeting(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, World!")
+	fmt.Fprintf(w, "Hello, Componentize World!")
 }
 
 func main() {}
